@@ -1,0 +1,63 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); /* deep techy gradient */
+  margin: 0;
+  padding: 20px;
+  color: #e0e0e0;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 3.2em;
+  color: #edf6f5fd;
+  text-shadow: 1px 1px #00c89733;
+}
+header p {
+  font-size: 1.2em;
+  color: #0e5d87;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background: #1c1c1c;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(44, 211, 211, 0.05);
+  padding: 24px;
+  flex: 1 1 300px;
+  max-width: 400px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(30, 99, 99, 0.1);
+}
+
+.card.wide {
+  flex-basis: 100%;
+}
+
+.form-section {
+  margin-top: 60px;
+  text-align: center;
+}
+
+form {
+  background: #2a2a2a;
+  padding: 25px;
+  border-radius: 12px;
+  max-width: 520px;
+  margin: 0 auto;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+}
+

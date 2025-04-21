@@ -1,2 +1,2 @@
 # BUG-SLAYERS
-bug slayer
+bug slayern
